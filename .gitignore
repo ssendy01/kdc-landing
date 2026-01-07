@@ -1,0 +1,73 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+*.key
+*.pem
+*.crt
+credentials*
+secret*
+
+# =========================
+# Dependency directories
+# =========================
+node_modules/
+vendor/
+
+# =========================
+# Build / Output
+# =========================
+dist/
+build/
+out/
+.cache/
+
+# =========================
+# Logs
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# =========================
+# Temporary / Backup files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+
+# =========================
+# Archives / Large files
+# =========================
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# =========================
+# Design source files (선택)
+# =========================
+*.psd
+*.ai
+*.xd
+*.fig
+
+# =========================
+# Local config (선택)
+# =========================
+config.local.js
