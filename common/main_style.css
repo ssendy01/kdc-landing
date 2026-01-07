@@ -1,0 +1,1500 @@
+@font-face {
+  font-family: 'ShillaCulture-B';
+  src: url('../fonts/Shilla_Culture(B).woff2') format('woff2'),
+       url('../fonts/Shilla_Culture(B).woff') format('woff'),
+       url('../fonts/Shilla_Culture(B).ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ShillaCulture-M';
+  src: url('../fonts/Shilla_Culture(M).woff2') format('woff2'),
+       url('../fonts/Shilla_Culture(M).woff') format('woff'),
+       url('../fonts/Shilla_Culture(M).ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 .txt-blue{
+  color: #1e45ff;
+}
+h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.3rem;
+}
+.main-container .hero-label {
+    font-size: 30px;
+    font-family: 'GmarketSansMedium';
+    margin-bottom: 40px;
+}
+.main-container .hero-title {
+    font-size: 70px;
+    line-height:1.1;
+}
+.main-container .hero-title .highlight {
+    display:inline;
+}
+
+/* 메인 타이머 */
+.main-container .main-timer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.main-container .timer-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.main-container .timer-box-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container .countdown-display-main {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.main-container .timer-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container .timer {
+  color: #ffffff;
+  line-height: 1;
+}
+
+.main-container .timer-label {
+  font-size: 14px;
+  color: #00e7ff;
+  margin-top: 5px;
+}
+
+.colon {
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.days {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+}
+.main-container .hero-right>div {
+    bottom:-80px;
+}
+.main-container .hand {
+    position: relative;
+    width: auto;
+    z-index: 2;
+    animation: droneFloat 3s cubic-bezier(0.4, 0.0, 0.2, 1);
+    transform-origin: center;
+    max-width: none;
+}
+.left-timer-box-wrap {
+  display: flex;
+  margin-top:50px;
+}
+.main-container .timer-box {
+  margin-left:20px;
+  align-items:flex-start;
+}
+.main-container .sand-timer .timer-days-display, .main-container .sand-timer .countdown-display {
+  margin: 0 auto;
+}
+.main-container section h3 {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+}
+.main-container .content-container {
+  width: 90%;
+}
+/* SECTION : AI Awareness */
+.section-ai-awareness {
+  background: #EEF0FF;
+  padding: 120px 0;
+}
+
+.section-ai-awareness .text-container h2 {
+  font-weight: 800;
+  color: #111;
+  line-height: 1.4;
+}
+
+.section-ai-awareness .text-container h3 {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #555;
+}
+
+.section-ai-awareness .content-container {
+  margin-top: 60px;
+}
+
+.section-ai-awareness .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
+}
+
+.section-ai-awareness .img-box img {
+  width: 100%;
+  max-width: 360px;
+}
+
+.section-ai-awareness .desc {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.section-ai-awareness .highlight {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.section-ai-awareness .label {
+  margin-top: 25px;
+  font-size: 15px;
+  color: #777;
+}
+/* SECTION : AI Gov Support */
+.section-ai-gov-support {
+  background: #ffffff;
+  padding: 120px 0;
+  text-align: center;
+}
+
+.section-ai-gov-support .text-container h2 {
+  font-weight: 800;
+  color: #111;
+}
+
+.section-ai-gov-support .text-container .highlight-blue {
+  color: #1e45ff;
+}
+
+.section-ai-gov-support .text-container h3 {
+  margin-top: 10px;
+  color: #111;
+}
+
+.section-ai-gov-support .content-container {
+  margin-top: 60px;
+}
+
+.section-ai-gov-support .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+/* Step Cards */
+.main-container .section-ai-gov-support .step-card {
+  display:block;
+  background: #6e89ff;
+  background: linear-gradient(180deg, #8ca9ff, #6e89ff);
+  padding: 40px 20px;
+  border-radius: 30px;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.section-ai-gov-support .step-card .label {
+  font-size: 18px;
+  margin-bottom: 18px;
+  opacity: 0.9;
+}
+
+.section-ai-gov-support .step-card .card-img img {
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
+.section-ai-gov-support .step-card .card-desc {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+/* Bottom Text */
+.section-ai-gov-support .bottom-text {
+  margin-top: 60px;
+}
+
+.section-ai-gov-support .bottom-text h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1e45ff;
+}
+
+/* ========================
+   AI Courses Section
+======================== */
+.main-container .section-ai-courses {
+  padding: 100px 0;
+  background: #f5f7ff;
+}
+
+.main-container .section-ai-courses .title-wrap {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.main-container .section-ai-courses .title-wrap h2 {
+  font-size: 34px;
+  font-weight: 800;
+  color: #111;
+  line-height: 1.4;
+}
+
+.main-container .section-ai-courses .title-wrap h2 span, .txt-blue {
+  color: #3b4bff;
+}
+
+.main-container .section-ai-courses .title-wrap strong {
+  color: #3b4bff;
+}
+
+.main-container .section-ai-courses .title-wrap p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+
+/* 카드 그리드 */
+.main-container .section-ai-courses .course-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+
+/* 개별 카드 */
+.main-container .section-ai-courses .course-card {
+  background: #fff;
+  border: 1px solid #e0e7ff;
+  border-radius: 16px;
+  padding: 20px 15px;
+  transition: all .25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container .section-ai-courses .course-card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+/* 이미지 */
+.main-container .section-ai-courses .course-card .thumb img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* 태그 */
+.main-container .section-ai-courses .tag-wrap {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.main-container .section-ai-courses .tag {
+  font-size: 13px;
+  padding: 4px 6px;
+  background: #eff3ff;
+  border-radius: 6px;
+  color: #3b4bff;
+  font-weight: 600;
+}
+
+.main-container .section-ai-courses .tag.red {
+  background: #ffe6e6;
+  color: #ff3b3b;
+}
+
+.youtube_btn {
+    display: inline !important;
+    color: #fff;
+    line-height: initial;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 9px;
+    margin-right: 5px;
+    border-radius: 7px;
+    background-color: #f00;
+    position: relative;
+    width: 25px;
+}
+
+.youtube_btn:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 15px;
+    background: url('../images/img-index-23.png') no-repeat center/contain;
+    transform: translate(0%, 30%);
+    position: absolute;
+}
+
+/* 타이틀 */
+.main-container .section-ai-courses .course-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 10px;
+  line-height: 27px;
+  text-align: left;
+}
+
+/* 설명 */
+.main-container .section-ai-courses .desc {
+  color: #555;
+  margin-bottom: 18px;
+  font-size: 14px;
+  flex-grow: 1;
+}
+
+/* 상세보기 버튼 */
+.main-container .section-ai-courses .btn-detail {
+  margin-top: auto;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 12px 0;
+  background: #6b7aff;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: .25s;
+}
+
+.main-container .section-ai-courses .btn-detail:hover {
+  background: #5665ff;
+}
+
+/* ===============================
+   랜딩페이지 Intro Section
+================================ */
+.main-container .lp-intro-section {
+  width: 100%;
+  padding: 120px 0;
+  background: url('../images/img-index-06.jpg') no-repeat center/cover;
+  text-align: center;
+  position: relative;
+  background-color: #001077;
+  background-position: top;
+  height: 630px;
+}
+
+.main-container .lp-intro-section .intro-text .main-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.4;
+  margin-bottom: 25px;
+  letter-spacing: -1px;
+}
+
+.main-container .lp-intro-section .intro-text .main-title .highlight {
+  color: #00c8ff;
+  display: contents;
+}
+
+.main-container .lp-intro-section .intro-text .sub-title {
+  font-size: 22px;
+  color: #d7e6ff;
+  margin-bottom: 45px;
+}
+
+.main-container .lp-intro-section .button-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.main-container .lp-intro-section .btn {
+  display: inline-block;
+  padding: 16px 36px;
+  border-radius: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.main-container .lp-intro-section .btn.yellow {
+  background: #ffcc00;
+  color: #222;
+}
+
+.main-container .lp-intro-section .btn.white {
+  background: #ffffff;
+  color: #111;
+}
+
+.main-container .lp-intro-section .btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* ============================================
+   랜딩페이지 – 대한민국 국민인가요 섹션
+============================================ */
+.main-container .lp-korean-section .container {
+  padding:0;
+}
+.main-container .lp-korean-section {
+  padding: 80px 0 0 !important;
+  background: #f4f4ff;
+  text-align: center;
+}
+
+.main-container .lp-korean-section .title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 12px;
+  padding:0;
+}
+
+.main-container .lp-korean-section .title .highlight {
+  color: #0057ff;
+}
+
+.main-container .lp-korean-section .subtitle {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 60px;
+}
+
+.main-container .lp-korean-section .subtitle .blue {
+  color: #0057ff;
+  font-weight: 600;
+}
+
+.main-container .lp-korean-section .people-wrap img {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  display: block;
+}
+
+.section-support-info {
+  background: #fff;;
+}
+
+/* ============================================
+   랜딩페이지 – 해보기는 해봤어? 섹션
+============================================ */
+.main-container .lp-try-section {
+  position: relative;
+  width: 100%;
+  padding: 80px 0;
+  color: #fff;
+  overflow: hidden;
+}
+
+.lp-try-section {
+  position: relative;
+  background: #000; /* ← 기본 배경색 */
+  color: #fff;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.lp-try-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('../images/img-index-07.jpg') center/cover no-repeat;
+  opacity: 0.4; /* ← 이미지만 40% 투명 */
+  z-index: -1;  /* 텍스트보다 뒤 */
+}
+
+.main-container .lp-try-section .container {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.main-container .lp-try-section .top-text {
+  font-size: 22px;
+  margin-bottom: 18px;
+  color: #ffffff;
+}
+
+.main-container .lp-try-section .title {
+  font-size: 6rem;
+  font-weight: 800;
+  margin-bottom: 80px;
+  color: #ffffff;
+  font-family: 'ShillaCulture-B', sans-serif;
+}
+
+.main-container .lp-try-section .content-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 왼쪽 일러스트 */
+.main-container .lp-try-section .illust {
+  left: 0;
+  bottom: 0;
+}
+.main-container .lp-try-section .illust img {
+  height: auto;
+}
+
+/* 오른쪽 인용문 박스 */
+.main-container .lp-try-section .quote-box {
+  border: 5px solid #fff;
+  padding: 40px 60px;
+  font-size: 26px;
+  font-weight: 500;
+  background: rgba(0,0,0,0.25);
+  line-height: 1.5;
+}
+
+.main-container .lp-try-section .quote-box p {
+  margin: 0;
+  text-align: center;
+}
+
+/**국민내일배움카드가 뭐에요?**/
+.nbcard ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+.nbcardinfo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.nbcardinfo li {
+    text-align: center;
+    width: 50%;
+    max-width: 420px;
+}
+.nbcard li {
+    padding: 10px;
+}
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+.nbcardinfo li>.card {
+    width: 100%;
+    height: 100%;
+    padding: 30px 15px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    font-size: 1.1em;
+    background-color: #c5e5ff;
+    transition: .3s 
+ease-in-out;
+}
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: .5s 
+cubic-bezier(.23, 1, .32, 2);
+}
+.card:before {
+    content: "";
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(255, 255, 255, .1));
+    transition: transform .5s 
+cubic-bezier(.23, 1, .32, 1);
+    position: absolute;
+    top: 0;
+}
+.card:before {
+    left: 0;
+}
+.nbcard {
+    background: #f6f7ff;
+}
+.nbcard li .nbcardtit {
+    display: inline-block;
+    width: 100px;
+    font-weight: 600;
+    color: #375fcd;
+    border-bottom: 1px solid #375fcd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.nav-menu li a span, .title span, span {
+    display: inline-block;
+}
+.nbcard .title p {
+    max-width: 800px;
+    color: #f06100;
+    font-weight: 400;
+    margin: 10px auto;
+    padding: 0 10px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .4);
+    font-size: 1rem;
+}
+.nbcardpdf {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 840px;
+}
+.nbcardpdf li {
+    padding: 10px;
+    width: 25%;
+}
+.nbcardpdf li>dl {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffebeb;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+}
+.nbcardpdf li a {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 4px 8px;
+    margin-top: 6px;
+    color: #fff;
+    background-color: #375fcd;
+    transition: .3s;
+}
+.nbcardpdf li svg {
+    width: 30px;
+    fill: #fff;
+}
+
+/* ============================================
+   랜딩페이지 – 실습 강조 섹션
+============================================ */
+.main-container .lp-practice-section {
+  padding: 120px 0 140px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.main-container .lp-practice-section .title {
+  font-size: 36px;
+  line-height: 1.4;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.main-container .lp-practice-section .title .highlight {
+  color: #0057ff;
+}
+
+.main-container .lp-practice-section .subtitle {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 80px;
+}
+
+.main-container .lp-practice-section .practice-list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 80px;
+}
+
+.main-container .lp-practice-section .item img {
+  width: 100%;
+  max-width: 350px;
+}
+
+/* 하단 텍스트 */
+.main-container .lp-practice-section .bottom-text {
+  font-size: 20px;
+  color: #333;
+}
+
+.main-container .lp-practice-section .bottom-text .blue {
+  color: #0057ff;
+  font-weight: 700;
+}
+
+/* =========================================================
+   🎥 수강생 결과물 섹션
+   - 가벼운 무한 자동 슬라이드
+   - 순수 CSS + JS 기반
+========================================================= */
+
+.main-container .lp-result-section {
+  padding: 120px 0;
+  background: #f4f4ff;
+  text-align: center;
+}
+
+/* ------------------------------
+   타이틀 & 부제
+------------------------------ */
+.main-container .lp-result-section .title {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.main-container .lp-result-section .title .highlight {
+  color: #0057ff;
+}
+
+.main-container .lp-result-section .subtitle {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 60px;
+}
+
+/* ------------------------------
+   슬라이더 전체 영역
+------------------------------ */
+.main-container .lp-result-section .result-slider-wrap {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* ------------------------------
+   슬라이더 리스트 (무한 슬라이드 핵심)
+------------------------------ */
+.main-container .lp-result-section .result-list {
+  display: flex;
+  gap: 30px;
+  overflow: hidden;        /* 화면 밖은 숨김 */
+  white-space: nowrap;     /* 줄바꿈 방지 */
+  scroll-behavior: smooth; /* JS auto-move 시 부드럽게 */
+  padding: 10px 0;
+}
+
+/* ------------------------------
+   카드
+------------------------------ */
+.main-container .lp-result-section .card {
+  width: 270px;
+  background: #ffffff;
+  border-radius: 20px;
+  flex: 0 0 auto;              /* 줄바꿈 없이 고정폭 */
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.main-container .lp-result-section .card .img-wrap img {
+  width: 100%;
+  display: block;
+}
+
+.main-container .lp-result-section .text-wrap {
+  padding: 20px 18px;
+  text-align: left;
+}
+
+.main-container .lp-result-section .card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.main-container .lp-result-section .desc {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 18px;
+  line-height: 1.45;
+}
+
+.main-container .lp-result-section .author {
+  font-size: 13px;
+  color: #888;
+}
+
+.main-container .lp-result-section .bottom-text {
+  margin-top: 50px;
+  font-size: 18px;
+  color: #333;
+}
+.result-slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.result-slider .track {
+  display: flex;
+  gap: 30px;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+.result-slider .card {
+  flex: 0 0 auto;
+  width: 280px;
+  border-radius: 12px;
+  background: #fff;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.result-slider .track::-webkit-scrollbar {
+  display: none; /* 스크롤바 숨김 */
+}
+
+.result-slider .card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.result-slider .card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 6px;
+}
+
+.result-slider .card p {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  white-space: normal;
+  text-align: left;
+  color: #333;
+}
+
+.result-slider .card span {
+  font-size: 13px;
+  color: #888;
+}
+
+.review-section {
+  padding: 80px 0;
+  background: #8498e4;
+  text-align: center;
+  color: #fff;
+}
+
+.review-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+.review02 .text {
+  font-size:1rem;
+  width:80%;
+}
+/*자격증 연계*/
+.licenseList {
+    display: flex;
+    max-width: 1140px;
+    padding: 0 0 10px;
+    margin: auto;
+    font-size: 14px;
+    touch-action: pan-x;
+    overflow-x: scroll;
+}
+.licenseList li:first-child {
+    margin-left: 10px;
+}
+.licenseList li {
+    flex: 0 0 180px;
+    text-align: center;
+    margin-left: 6px;
+}
+.licenseList li>div {
+    display: flex;
+    flex-direction: column;
+}
+.openModal {
+    cursor: pointer;
+}
+.licenseList li img {
+    border-radius: 4px 4px 0 0;
+    pointer-events: none;
+}
+.licenseList {
+    display: flex;
+    max-width: 1140px;
+    padding: 0 0 10px;
+    margin: auto;
+    font-size: 14px;
+    touch-action: pan-x;
+    overflow-x: scroll;
+}
+.licenseList .btn {
+    height: 100px;
+    color: #000;
+    background-color: #f9f9f9;
+    border: 1px solid #aaa;
+    border-radius: 0 0 4px 4px;
+    display: block;
+}
+.kdlist .btn {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    min-width: 120px;
+    min-height: 50px;
+    background: 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: .2s 
+ease-in;
+    -moz-transition: .2s ease-in;
+    transition: .2s 
+ease-in;
+}
+.kdlist .btn {
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+}
+.btn::before {
+    content: '';
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 0 40px 10px #fff;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+}
+.licenseList .btn span {
+    color: #375fcd;
+}
+.licenseList li span {
+    font-size: 14px;
+}
+
+.review-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 660px;  /* 리뷰 3개만 보이게 */
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+.review-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  transition: transform 0.55s ease-out;
+}
+
+.review-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #fff;
+  color: #333;
+  border-radius: 14px;
+  padding: 25px 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  opacity: 0.95;
+}
+
+.review-item.pop {
+  animation: popIn 0.45s ease-out;
+}
+
+.review-box .info {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.main-container .stars01 {
+  color: #f7b500;
+  font-size: 18px;
+  margin-bottom: 15px;
+  position: relative;
+  text-align: left;
+}
+.main-container .review-item .profile {
+  position: absolute;
+  right: 10px;
+}
+.review-box .text {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* 올라올 때 “뿅” 효과 (아주 약하게) */
+.review-item.animate {
+  animation: popUp 0.45s ease-out;
+}
+
+@keyframes popUp {
+  0% { transform: translateY(10px) scale(0.985); opacity: 0.7; }
+  100% { transform: translateY(0) scale(1); opacity: 1; }
+}
+
+.section-lp-benefits {
+  padding: 120px 0;
+}
+
+.section-lp-benefits .text-container h2 .highlight {
+  color: #0046ff;
+}
+
+.section-lp-benefits .benefits-grid {
+  gap: 45px;
+  display: flex;
+}
+
+.section-lp-benefits .benefit-card {
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #e3e6ef;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+  text-align: center;
+  padding: 0 30px 40px;
+  overflow: hidden;
+}
+
+.section-lp-benefits .benefit-card-label {
+  background: #8aa6ff;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 16px 0;
+  border-radius: 18px 18px 0 0;
+  margin: 0 -30px 30px;
+}
+
+.section-lp-benefits .benefit-img {
+  width: 170px;
+  display: block;
+  margin: 0 auto 25px;
+}
+
+.section-lp-benefits .benefit-desc {
+  font-size: 17px;
+  color: #222;
+  line-height: 1.55;
+}
+/*모래시계 섹션*/
+.sand-timer .timer {
+  color:#00ff88;
+}
+.main-cta{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 -4px 15px rgba(0,0,0,0.08);
+  transform: translateY(0);
+}
+.cta.push-down {
+  bottom: 0;
+  transform: translateY(0);
+}
+
+/*모달*/
+.modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal iframe {
+    width: 100%;
+    border: none;
+    overflow-y: scroll !important;
+}
+.modal-content {
+    position: fixed;
+    left: 50%;
+    top: 80px;
+    transform: translateX(-50%);
+    width: 100%;
+    height: calc(100% - 80px);
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+}
+.modal-tit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    border-bottom: 1px solid #ddd;
+}
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+}
+.modal01 textarea {
+    width: 100%;
+}
+.modal01 {
+    border:0;
+}
+.modal01 textarea {
+    height:auto;
+}
+
+
+/* ===========================
+   반응형
+=========================== */
+
+/* Responsive */
+@media (max-width: 1280px) {
+    .main-container .section-ai-courses .course-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 1200px) {
+  .timer-box {
+    width: auto;
+  }
+  .left-timer-box-wrap {
+    justify-content: center;
+  }
+  .main-container .hero-title {
+    font-size: 4rem;
+    text-align: center;
+  }
+}
+@media (max-width: 1024px) {
+  .section-ai-awareness .grid {
+    gap: 40px;
+  }
+  .section-ai-gov-support .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+   .main-container .lp-korean-section {
+    padding: 90px 0;
+  }
+  .main-container .lp-korean-section .title {
+    font-size: 30px;
+  }
+   .main-container .lp-try-section {
+    padding: 130px 0;
+  }
+
+  .main-container .lp-try-section .title {
+    font-size: 42px;
+  }
+
+  .main-container .lp-try-section .quote-box {
+    padding: 30px 40px;
+    font-size: 22px;
+  }
+
+  .main-container .lp-try-section .illust img {
+    width: 200px;
+  }
+  .main-container .lp-practice-section .practice-list {
+    gap: 20px;
+  }
+  .main-container .lp-practice-section .item img {
+    max-width: 280px;
+  }
+  .main-container .lp-practice-section .title {
+    font-size: 30px;
+  }
+  .section-lp-benefits .benefits-grid {
+    gap: 28px;
+  }
+}
+
+@media (max-width: 913px) {
+  .section-ai-awareness .grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .section-ai-awareness .img-box {
+    display: flex;
+    justify-content: center;
+  }
+  .main-container .section-ai-courses .course-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+   .section-lp-benefits .benefits-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-ai-awareness {
+    padding: 80px 0;
+  }
+
+  .section-ai-awareness .text-container h2 {
+    font-size: 30px;
+  }
+  .section-ai-gov-support {
+    padding: 80px 0;
+  }
+
+  .section-ai-gov-support .text-container h2 {
+    font-size: 30px;
+  }
+  .main-container .lp-intro-section {
+    padding: 80px 0;
+    height: auto;
+    background-position: top right;
+  }
+  .main-container .lp-intro-section .main-title {
+    font-size: 28px;
+  }
+  .main-container .lp-intro-section .sub-title {
+    font-size: 18px;
+  }
+  .main-container .lp-intro-section .button-wrap {
+    flex-direction: column;
+    gap: 12px;
+    width:100%;
+  }
+  .main-container .lp-intro-section .btn {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .main-container .lp-korean-section {
+    padding: 70px 0 0;
+  }
+  .main-container .lp-korean-section .title {
+    font-size: 26px;
+  }
+  .main-container .lp-korean-section .subtitle {
+    font-size: 16px;
+  }
+  .main-container .lp-try-section {
+    padding: 110px 0;
+  }
+
+  .main-container .lp-try-section .title {
+    font-size: 34px;
+  }
+
+  .main-container .lp-try-section .illust {
+    bottom: -30px;
+  }
+
+  .main-container .lp-try-section .quote-box {
+    width: 90%;
+    padding: 24px 28px;
+    font-size: 18px;
+    margin: 0 auto;
+  }
+  .main-container .lp-try-section .content-wrap {
+    display: block;
+  }
+
+  .main-container .lp-practice-section {
+    padding: 80px 0;
+  }
+  .main-container .lp-practice-section .practice-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .main-container .lp-practice-section .item img {
+    max-width: 280px;
+  }
+  .main-container .lp-practice-section .title {
+    font-size: 26px;
+  }
+  .main-container .lp-practice-section .subtitle {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+   .main-container .lp-result-section {
+    padding: 80px 0;
+  }
+
+  .main-container .lp-result-section .title {
+    font-size: 28px;
+  }
+
+  .main-container .lp-result-section .result-list {
+    gap: 20px;
+  }
+
+  .main-container .lp-result-section .card {
+    width: 240px;
+  }
+  .main-container .hero-title {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .section-lp-benefits .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+  .main-container section {
+    padding:50px 0;
+  }
+  .main-countdown-section {
+    padding:30px 10px 100px 10px;
+  }
+  .lp-try-section::before {
+    background-position: 65% 70%;
+  }
+  .main-container .grid-3 {
+    display: block;
+  }
+  .main-container .review-section .text {
+    font-size:1rem;
+  }
+  .main-container .review-section .profile img {
+    width:80%;
+  }
+}
+@media (min-width: 700px) {
+    .modal-content {
+        max-height: 740px;
+        border-radius: 8px 8px 0 0;
+        bottom: 0;
+    }
+}
+@media (max-width: 640px) {
+  .main-container .section-ai-courses .course-grid {
+    grid-template-columns: 1fr;
+  }
+  .nbcardpdf li {
+    width:100%;
+  }
+  .nbcardinfo li {
+    width:100%;
+  }
+}
+
+@media (max-width: 510px) {
+  .section-ai-awareness .highlight {
+    font-size: 20px;
+  }
+  .section-ai-gov-support .grid {
+    grid-template-columns: 1fr;
+  }
+  .section-lp-benefits .benefit-card {
+    padding: 0 20px 40px;
+    max-width: 100%;
+  }
+  .section-lp-benefits .benefit-card-label {
+    margin: 0 -20px 25px;
+  }
+  .main-container .hero-label {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  .main-container .hero-title {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+  .main-container h2 {
+    font-size: 1.5rem !important;
+  }
+  .main-container section h3 {
+    font-size: 1rem !important;
+    line-height: 1.5;
+  }
+  .cta-buttons .btn {
+    white-space: normal;
+  }
+  .main-container .hand {
+    width:100%;
+  }
+  .main-container .content-container {
+    width:70%;
+  }
+  .main-container .section-ai-courses .course-grid {
+    width:80%;
+    margin: 0 auto;
+  }
+  .section-lp-benefits .benefit-img {
+    width:auto;
+  }
+  .section-support-info .support-option, .section-support-info .step-card {
+    padding-left: 5%;
+  }
+  .main-container .review-box {
+    display: block;
+  }
+  .main-container .profile {
+    display: block;
+  }
+  .review-secition .text {
+    flex: 1;
+}
+ .main-container .review-item .profile {
+    position: relative;
+    width: 60%;
+    margin:0 auto;
+    margin-top:20px;
+ }
+ .review-item {
+    display: block;
+ }
+ .review02 .text {
+    width: 100%;
+ }
+}
